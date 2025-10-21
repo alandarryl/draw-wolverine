@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tronc{
+    position: relative;
+    background-color: #fdf06e;
+    height: 200px;
+    width: 170px;
+    z-index: 100;
+}
+
+.tronc .head{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #feeb3f;
+    left: 50%;
+    top: -65%;
+    transform: translateX(-50%);
+}
+
+.tronc .head .mouth{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    background-color: #f3ccb7;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    z-index: 200;
+    border-radius: 0 0 20px 20px;
+}
+
+.tronc .bras{
+    background-color: #f3ccb7;
+    width: 50px;
+    height: 150px;
+}
+
+
+
