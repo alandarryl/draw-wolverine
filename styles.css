@@ -35,12 +35,12 @@ body{
     position: absolute;
     width: 0;
     height: 0;
-    border-top: 100px solid transparent;
+    border-top: 120px solid transparent;
     border-bottom: 50px solid transparent;
     border-right: 100px solid #545454;
     transform: rotate(-70deg);
-    left: -30px;
-    top: -5px;
+    left: -40px;
+    top: -35px;
     opacity: 0.94;
     z-index: 45;
 }
@@ -48,13 +48,13 @@ body{
 .tronc .head .right-mask{
     width: 0;
     height: 0;
-    border-top: 100px solid transparent;
+    border-top: 120px solid transparent;
     border-bottom: 50px solid transparent;
     border-left: 100px solid #545454;
     transform: rotate(70deg);
     position: absolute;
-    left: 90px;
-    top: -5px;
+    left: 100px;
+    top: -35px;
     opacity: 0.94;
     z-index: 50;
 }
@@ -68,7 +68,7 @@ body{
     top: 50%;
     transform: translateX(-50%);
     z-index: 20;
-    border-radius: 0 0 30px 30px;
+    border-radius: 0 0 20px 20px;
 }
 
 
@@ -80,18 +80,15 @@ body{
     background-color: #f3ccb7;
     left: 100%;
     top: 10%;
-    width: 50px;
-    height: 150px;
+    width: 30px;
+    height: 180px;
 }
 
 .tronc .bras .left-arm .shoulder-left{
-    /* width: 100px;
-    height: 58px;
-    background-color: #577fa1; */
     width: 0;
     height: 0;
     border-top: 70px solid #577fa1;
-    border-right: 80px solid transparent;
+    border-right: 70px solid transparent;
     position: absolute;
     top: -20px;
     left: 0;
@@ -99,8 +96,8 @@ body{
 }
 
 .tronc .bras .left-arm .glove{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 40px;
     background-color: #577fa1;
     position: absolute;
     bottom: 0;
@@ -118,33 +115,33 @@ body{
 }
 
 .tronc .bras .left-arm .nails .nail1{
-    width: 10px;
-    height: 125px;
+    width: 7px;
+    height: 100px;
     background-color: #d1d9dd;
     position: absolute;
     z-index: 1000;
     top: 0;
-    left: 5px;
+    left: 0px;
 }
 
 .tronc .bras .left-arm .nails .nail2{
-    width: 10px;
-    height: 125px;
+    width: 7px;
+    height: 100px;
     background-color: #d1d9dd;
     position: absolute;
     z-index: 1000;
     top: 0;
-    left: 20px;
+    left: 15px;
 }
 
 .tronc .bras .left-arm .nails .nail3{
-    width: 10px;
-    height: 125px;
+    width: 7px;
+    height: 100px;
     background-color: #d1d9dd;
     position: absolute;
     z-index: 1000;
     top: 0;
-    left: 35px;
+    left: 30px;
 }
 
 
@@ -153,32 +150,31 @@ body{
     position: absolute;
     background-color: #f3ccb7;
     top: 10%;
-    left: -28%;
-    width: 50px;
-    height: 150px;
+    left: -30px;
+    width: 30px;
+    height: 180px;
+    z-index: 980;
 }
 
 .tronc .bras .right-arm .shoulder-right{
-    /* width: 100px;
-    height: 58px; */
     width: 0;
     height: 0;
     border-top: 70px solid #577fa1;
-    border-left: 80px solid transparent;
+    border-left: 70px solid transparent;
     position: absolute;
     top: -20px;
-    left: -30px;
+    left: -40px;
     opacity: 0.8;
 }
 
 .tronc .bras .right-arm .glove{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 40px;
     background-color: #577fa1;
     position: absolute;
     bottom: 0;
-    left: -5px;
-    z-index: 800;
+    left: -10px;
+    z-index: 900;
     opacity: 0.8;
 }
 
@@ -191,62 +187,62 @@ body{
 }
 
 .tronc .bras .right-arm .nails .nail1{
-    width: 10px;
-    height: 125px;
+    width: 7px;
+    height: 100px;
     background-color: #d1d9dd;
     position: absolute;
     z-index: 1000;
     top: 0;
-    left: 5px;
+    left: -5px;
 }
 
 .tronc .bras .right-arm .nails .nail2{
-    width: 10px;
-    height: 125px;
+    width: 7px;
+    height: 100px;
     background-color: #d1d9dd;
     position: absolute;
     z-index: 1000;
     top: 0;
-    left: 20px;
+    left: 10px;
 }
 
 .tronc .bras .right-arm .nails .nail3{
-    width: 10px;
-    height: 125px;
+    width: 7px;
+    height: 100px;
     background-color: #d1d9dd;
     position: absolute;
     z-index: 1000;
     top: 0;
-    left: 35px;
+    left: 25px;
 }
 
 
 /* style des parti basse */
-.tronc .jambe .jupe{
+.tronc .jambe .belt{
     position: absolute;
     width: 180px;
     height: 50px;
     background-color: #bf5e3c;
-    bottom: 0;
+    bottom: -20px;
     left: -5px;
-    z-index: 700;
+    z-index: 600;
 }
 
 .tronc .jambe .right-leg{
     position: absolute;
     width: 70px;
-    height: 150px;
+    height: 200px;
     background-color: #feed3d;
-    bottom: -150px;
+    bottom: -200px;
     left: 5px;
 }
 
 .tronc .jambe .left-leg{
     position: absolute;
     width: 70px;
-    height: 150px;
+    height: 200px;
     background-color: #feed3d;
-    bottom: -150px;
+    bottom: -200px;
     right: 5px;
 }
 
@@ -256,8 +252,8 @@ body{
     height: 0;
     border-left: 90px solid transparent;
     border-right: 90px solid transparent;
-    border-top: 100px solid #577fa1;
-    bottom: -80px;
+    border-top: 130px solid #577fa1;
+    bottom: -100px;
     left: -5px;
     z-index: 400;
     opacity: 0.9;
